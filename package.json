@@ -3,12 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "cloudinary": "^1.15.0",
+    "cloudinary-core": "^2.7.4",
+    "cloudinary-react": "^1.1.4",
+    "filepond": "^4.7.1",
+    "filepond-plugin-image-edit": "^1.4.0",
+    "filepond-plugin-image-exif-orientation": "^1.0.6",
+    "filepond-plugin-image-preview": "^4.4.0",
+    "filepond-plugin-image-transform": "^3.4.3",
+    "filerobot-image-editor": "^3.1.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.2"
+    "react-filepond": "^7.0.1",
+    "react-scripts": "3.1.2",
+    "react-spring": "^8.0.27",
+    "serve": "^11.1.0",
+    "yup": "^0.27.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
